@@ -32,7 +32,9 @@ class Product extends BaseProduct
         self::GREEN   => self::GREEN,
     ];
 
-    /** @var @ORM\Column(type="string", nullable=true) */
+    /**
+     * @var string
+     */
     private $color;
 
     public function getColor(): ?string
